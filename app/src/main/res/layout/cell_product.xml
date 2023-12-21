@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextViewCellProduct"
+            android:id="@+id/textViewName"
+            android:text="Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            style="@style/TextViewCellProductDescription"
+            android:id="@+id/textViewDescription"
+            android:text="Liste des ingrédients :Lait (origine : France), sel, ferments (dont lait), coagulant. Substances ou produits provoquant des allergies ou intolérances : Lait\n Liste des ingrédients :Lait de vache pasteurisé (origine : France), crème de lait de chèvre (origine : France) 10%, ferments lactiques et d'affinage (dont lait), sel. Substances ou produits provoquant des allergies ou intolérances : Lait. Avertissement : Le taux de fibres n'étant pas renseigné, leur éventuelle contribution positive à la note n'a pas pu être prise en compte.\n Liste des ingrédients :Lait de vache pasteurisé (origine : France), crème de lait de chèvre (origine : France) 10%, ferments lactiques et d'affinage (dont lait), sel. Substances ou produits provoquant des allergies ou intolérances : Lait. Avertissement : Le taux de fibres n'étant pas renseigné, leur éventuelle contribution positive à la note n'a pas pu être prise en compte.\n Liste des ingrédients :Lait de vache pasteurisé (origine : France), crème de lait de chèvre (origine : France) 10%, ferments lactiques et d'affinage (dont lait), sel. Substances ou produits provoquant des allergies ou intolérances : Lait. Avertissement : Le taux de fibres n'étant pas renseigné, leur éventuelle contribution positive à la note n'a pas pu être prise en compte."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
